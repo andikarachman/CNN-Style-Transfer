@@ -17,3 +17,5 @@ In this notebook, we will implement the style transfer technique from the articl
    - **style loss**, i.e., the distance between the style and output images. We minimize this loss to apply a new style to an image.
    - **total variation loss**, i.e., regularization - spatial smoothness to denoise the output image.
 5. Finally, we set our gradients and optimize with the Adam optimizer.
+
+This project is inspired by one of the mini-projects in the Udacity Deep Learning Nanodegree.
